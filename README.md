@@ -27,58 +27,8 @@
 
    ## 🤝 Connect
 
-   - LinkedIn: [Your Profile]
-   - Email: your.email@example.com
+   - LinkedIn: [https://www.linkedin.com/in/aryan-dadwal1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BXCXIPU7XThSMZ4X1vjEfGQ%3D%3D]
+   - Email: dadwalaryan0@gmail.com
 
-   ⭐ Star this repo if helpful!
-```
-
-5. **Scroll down, commit message:**
-```
-   Update main README with portfolio info
-```
-
-6. **Click:** **"Commit changes"**
-
-✅ **Done!** Main README updated!
-
----
-
-## **Final Structure**
-
-Your repository now looks like:
-```
-excel-data-analysis-portfolio/
-├── README.md                          ← Main portfolio page
-├── LICENSE
-└── sales-data-cleaning/
-    ├── README.md                      ← Project details
-    ├── SALES_DATA1Sheet1.csv          ← Raw data
-    ├── Cleaned_Sales_Data.xlsx        ← Cleaned data
-    └── screenshots/
-        ├── before.png
-        ├── after.png
-        └── summary.png
-```
-
----
-
-## **View Your Portfolio**
-
-Go to:
-```
-https://github.com/yourusername/excel-data-analysis-portfolio
-```
-
-You should see:
-- ✅ Professional README with project link
-- ✅ Clickable project folder
-- ✅ All files organized nicely
-
----
-
-## **Quick Reference: Creating Folders on GitHub Web**
-
-**To create a folder, type in filename:**
-```
+   
 folder-name/file.md
