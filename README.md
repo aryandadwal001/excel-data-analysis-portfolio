@@ -4,7 +4,7 @@
 
    ## 👋 About Me
 
-   **Your Name** | Data Analyst
+   **Aryan** | Data Analyst
 
    ## 🗂️ Projects
 
