@@ -27,7 +27,7 @@
 
    ## 🤝 Connect
 
-   - LinkedIn: [https://www.linkedin.com/in/aryan-dadwal1?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BXCXIPU7XThSMZ4X1vjEfGQ%3D%3D]
+   - LinkedIn: [linkedin.com/in/aryan-dadwal1]
    - Email: dadwalaryan0@gmail.com
 
    
