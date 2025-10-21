@@ -20,13 +20,12 @@ The analysis leverages the following seven core functions for automated data pro
 
 ---
 
-## 🛠️ How to View the Project
+## 📊 Analysis Highlights
 
-1.  **Clone the repository:**
-    ```bash
-    git clone [https://github.com/aryandadwal001/excel-data-analysis-portfolio.git](https://github.com/aryandadwal001/excel-data-analysis-portfolio.git)
-    ```
-2.  **Examine the file:** Open the Excel file within the repository and review the formulas in the calculated columns to see each of the seven logical functions in use.
+* **Decision Automation:** Complex performance rules are fully automated through dynamic formulas, removing manual assessment.
+* **Tiered Incentives:** Showcase of the modern **`IFS`** function for clean, scalable, and multi-level bonus calculation logic.
+* **Data Integrity:** Implementation of **`IFERROR`** demonstrates a focus on producing clean, reliable, and crash-proof reports.
+* **Comprehensive Evaluation:** The use of **`AND`**, **`OR`**, and **`NOT`** functions accurately models complex eligibility and flagging rules.
 
 ---
 
