@@ -1,1 +1,47 @@
+# 📈 HR/Sales Performance Analysis with Advanced Excel Logic
 
+This project demonstrates proficiency in using advanced logical functions in Microsoft Excel for comprehensive data analysis, specifically applied to an employee performance and bonus scenario.
+
+The analysis evaluates employee performance metrics, calculates eligibility, assigns grades, and determines tiered bonus structures, all while ensuring error-free calculations.
+
+---
+
+## 🔑 Key Excel Concepts Demonstrated
+
+This workbook applies **seven** fundamental and advanced logical operations to derive meaningful insights and automated decision-making from the raw data.
+
+| Function | Purpose in Project | Data Result |
+| :--- | :--- | :--- |
+| **IF** | Determines the basic status based on a single condition. | `Met Target` / `Below Target` Status |
+| **Nested IF** | Assigns granular performance grades based on multiple conditions. | `Excellent` / `Good` / `Average` / `Poor` Grades |
+| **AND** | Checks multiple criteria to confirm eligibility for a bonus. | Bonus Eligibility (must meet **ALL** criteria) |
+| **OR** | Awards special recognition if an employee meets at least one specific goal. | Special Recognition Status (meets **ANY** criteria) |
+| **NOT** | Flags individuals who do *not* meet a minimum standard. | `Needs Improvement` Flag |
+| **IFS** | Calculates tiered, conditional bonus payouts based on specific performance levels. | Variable Bonus Amount ($) |
+| **IFERROR** | Ensures commission rate calculations do not result in errors (e.g., Division by Zero). | Error-Protected Commission Rate |
+
+---
+
+## 📊 Data & Analysis Highlights
+
+* **Performance Grading:** Automated assignment of performance grades based on predefined metrics.
+* **Bonus Calculation:** Tiered bonus structures are dynamically calculated using the powerful `IFS` function.
+* **Error Handling:** Robust handling of potential division by zero errors in the commission calculation column.
+* **Clarity:** The use of distinct logical functions makes the decision-making process within the data transparent and auditable.
+
+---
+
+## 🛠️ How to View the Project
+
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/aryandadwal001/excel-data-analysis-portfolio.git](https://github.com/aryandadwal001/excel-data-analysis-portfolio.git)
+    ```
+2.  **Navigate to the project file:**
+    `cd excel-data-analysis-portfolio`
+3.  **Open the Excel file:** `[Your File Name Here].xlsx` to examine the formulas in the calculated columns.
+
+---
+
+**Author:** [Aryan]
+**Date:** [Oct-2025]
