@@ -14,11 +14,6 @@ This Excel workbook demonstrates the power of dynamic array functions—especial
 | `Filter + Sort - North Region Ranked` | Combines filter and sort to rank North region orders by revenue |
 | `top 5 laptop sales by revenue`    | Isolates top 5 laptop orders using category and revenue filters   |
 
-## 💡 Tips
-- Use named ranges or structured tables for cleaner formulas.
-- Combine `FILTER` with `ISNUMBER(SEARCH(...))` for partial text matches.
-- Use `SORTBY` with multiple arrays for advanced multi-criteria sorting.
-
 ## 📈 Ideal For
 - Sales analysts
 - Excel enthusiasts
