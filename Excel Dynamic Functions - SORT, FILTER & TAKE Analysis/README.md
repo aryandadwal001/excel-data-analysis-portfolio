@@ -1,88 +1,41 @@
-**Sales Performance Data Analysis using Advanced Excel Functions**
+# 📊 Excel Dynamic Functions Portfolio: SORT, FILTER & TAKE Operations
 
-A comprehensive demonstration of Excel's dynamic array functions applied to real-world sales data analysis, showcasing data filtering, sorting, and extraction techniques used in business analytics.
-```
+## Overview
+This Excel workbook demonstrates the power of dynamic array functions—especially `SORT`, `FILTER`, and `TAKE`—to build modular, formula-driven dashboards for sales and order analysis. It showcases how to extract insights from raw data without relying on manual filtering or pivot tables.
 
----
+## 🔧 Functions Used
+- `SORT(array, [sort_index], [sort_order])`
+- `FILTER(array, include, [if_empty])`
+- `TAKE(array, rows)`
+- `SORTBY(array, by_array1, [sort_order1], ...)`
+- Supporting functions: `UNIQUE`, `SEQUENCE`, `INDEX`, `LET`
 
-## 🏷️ **PROJECT TITLES FOR EACH EXERCISE:**
+## 📁 Sheet Highlights
 
-Add these as headers in your Excel sheets:
+| Sheet Name                          | Description                                                       |
+|------------------------------------|-------------------------------------------------------------------|
+| `North Region Big Deals`           | Filters high-value orders from the North region                   |
+| `HIGH VALUE ORDERS (Using - Filter)` | Extracts orders marked as "High Value" using dynamic filtering    |
+| `Region then Profit`               | Sorts orders first by region, then by descending profit           |
+| `Top 10 Revenue Leaders`           | Displays top 10 orders by revenue using `SORT` + `TAKE`           |
+| `Filter + Sort - North Region Ranked` | Combines filter and sort to rank North region orders by revenue |
+| `top 5 laptop sales by revenue`    | Isolates top 5 laptop orders using category and revenue filters   |
 
-### **Filter Exercises:**
-```
-1. High-Value Order Filtering
-2. Multi-Criteria Regional Analysis (North Region + Revenue Threshold)
-```
+## 🛠️ How to Use
+1. **Excel Version**: Ensure you're using Excel 365 or Excel 2021+ (dynamic arrays required).
+2. **Explore Sheets**: Each sheet demonstrates a unique use case or formula combination.
+3. **Customize Filters**: Modify formulas to change criteria (e.g., region, product, value tier).
+4. **Extend Logic**: Use `LET` and `LAMBDA` to modularize and reuse logic across sheets.
 
-### **Sort Exercises:**
-```
-3. Revenue-Based Performance Ranking
-4. Regional Sales Analysis with Profit Prioritization
-```
+## 💡 Tips
+- Use named ranges or structured tables for cleaner formulas.
+- Combine `FILTER` with `ISNUMBER(SEARCH(...))` for partial text matches.
+- Use `SORTBY` with multiple arrays for advanced multi-criteria sorting.
 
-### **Take Exercise:**
-```
-5. Top 10 Revenue Leaders Dashboard
-```
-
-### **Combination Exercises:**
-```
-6. Regional Performance Leaderboard (Filter + Sort)
-7. Product Category Top Performers Analysis (Filter + Sort + Take)
-8. Quarterly High-Value Sales Report (Advanced Multi-Criteria)
-```
-
----
-
-## 📝 **COMPLETE FILE NAMING:**
-
-### **Excel File Name:**
-```
-Sales_Analysis_SORT_FILTER_TAKE_Portfolio_AryanDadwal.xlsx
-```
-
-### **For GitHub folder structure:**
-```
-excel-sort-filter-take-portfolio/
-├── README.md
-├── Sales_Analysis_SORT_FILTER_TAKE_Portfolio.xlsx
-├── screenshots/
-│   ├── 01_filter_high_value.png
-│   ├── 02_filter_north_region.png
-│   ├── 03_sort_revenue.png
-│   ├── 04_sort_multilevel.png
-│   ├── 05_take_top10.png
-│   ├── 06_combo_filter_sort.png
-│   ├── 07_combo_top5_laptops.png
-│   └── 08_combo_q3_analysis.png
-└── documentation/
-    └── project_summary.md
-```
+## 📈 Ideal For
+- Sales analysts
+- Excel enthusiasts
+- BI professionals
+- Anyone building formula-driven dashboards
 
 ---
-
-## 🎯 **PROFESSIONAL TITLE FOR YOUR CURRENT WORK:**
-
-Right now, add this title in cell **P1** before your formulas:
-```
-Dynamic Sales Analysis - SORT, FILTER & TAKE Operations
-```
-
-And add this in cell **A1** of your Raw_Data sheet:
-```
-Sales Performance Dataset - 100 Records | 14 Columns | Q1-Q4 2024
-```
-
----
-
-## 📊 **FOR YOUR PORTFOLIO WEBSITE/LINKEDIN:**
-
-### **Project Title:**
-```
-Excel Advanced Functions Portfolio: Dynamic Data Analysis with SORT, FILTER & TAKE
-```
-
-### **One-Line Description:**
-```
-Performed comprehensive sales data analysis using Excel's dynamic array functions, demonstrating proficiency in data filtering, multi-level sorting, and top-N extraction for business intelligence reporting.
